@@ -15,3 +15,11 @@ mvn spring-boot:run -Dspring-boot.run.arguments="--server.port=9100"
 mvn test
 
 ```
+
+3. To run the Selenium integration testing 
+
+```bash
+
+python3 src/test/java/integration/CalculatorIntegrationTest.py
+
+```

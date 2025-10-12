@@ -23,3 +23,9 @@ mvn test
 python3 src/test/java/integration/CalculatorIntegrationTest.py
 
 ```
+
+4. To run sonar-scanner
+
+```bash
+sonar-scanner -Dsonar.projectBaseDir="$(pwd)" -Dsonar.host.url=http://localhost:9000 -Dsonar.token= secrets from sonarqube
+```
